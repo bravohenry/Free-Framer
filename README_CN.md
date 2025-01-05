@@ -16,8 +16,6 @@
 
 ## ✨ 功能特点
 
-<div align="center">
-
 | 功能 | 描述 |
 |:--|:--|
 | 🌐 自定义域名 | 使用自己的域名，提升专业形象 |
@@ -26,8 +24,6 @@
 | 🔒 免费 SSL | 免费的 SSL 证书保护 |
 | 🚀 性能优化 | 优化的缓存和资源分发 |
 | 🛡️ 安全防护 | 企业级安全特性 |
-
-</div>
 
 ## 📝 快速开始
 
@@ -53,7 +49,7 @@
 <details>
 <summary>📄 点击查看代码</summary>
 
-\`\`\`javascript
+```javascript
 export default {
   // ⚡️ Powered by bravohenry.com
   async fetch(request, env, ctx) {
@@ -153,7 +149,7 @@ export default {
     }
   }
 }
-\`\`\`
+```
 </details>
 
 7. 点击 `Save and deploy` 保存并部署
@@ -206,15 +202,11 @@ export default {
 
 ## 👨‍💻 作者信息
 
-<div align="center">
-
 | 平台 | 链接 |
 |:--|:--|
 | 🌐 博客 | [Bravohenry.com](https://bravohenry.com) |
 | 📱 小红书 | Bravohenry |
 | 🐦 X | [@Bravohenry_](https://x.com/Bravohenry_) |
-
-</div>
 
 ## 📄 许可证
 

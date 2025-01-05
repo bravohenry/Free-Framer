@@ -16,8 +16,6 @@
 
 ## ✨ Features
 
-<div align="center">
-
 | Feature | Description |
 |:--|:--|
 | 🌐 Custom Domain | Use your own domain for a professional look |
@@ -26,8 +24,6 @@
 | 🔒 Free SSL | Secure your site with free SSL certification |
 | 🚀 Performance | Optimized caching and resource delivery |
 | 🛡️ Security | Enterprise-grade security features |
-
-</div>
 
 ## 📝 Quick Start
 
@@ -53,7 +49,7 @@ Before you begin, ensure you have:
 <details>
 <summary>📄 Click to view the code</summary>
 
-\`\`\`javascript
+```javascript
 export default {
   // ⚡️ Powered by bravohenry.com
   async fetch(request, env, ctx) {
@@ -65,7 +61,7 @@ export default {
        */
       const url = new URL(request.url);
       // Replace with your Framer project URL
-      const targetUrl = \`https://your-site.framer.website/\${url.pathname}\`;
+      const targetUrl = `https://your-site.framer.website/${url.pathname}`;
       
       // Detect static resources
       const isStatic = /\.(ico|png|jpg|jpeg|gif|svg|webp|woff2?|ttf|eot)$/i.test(url.pathname);
@@ -83,7 +79,7 @@ export default {
 
       // Version control for cache
       const VERSION = '1.0'; // bravohenry.com
-      const cacheKey = \`\${targetUrl}?v=\${VERSION}\`;
+      const cacheKey = `${targetUrl}?v=${VERSION}`;
 
       // Request headers setup by bravohenry.com
       const headers = new Headers(request.headers);
@@ -125,14 +121,14 @@ export default {
       
       // Inject optimizations and remove watermark
       content = content
-        .replace(/(<\!DOCTYPE html>)/i, '$1\\n<!-- Optimized by bravohenry.com -->')
-        .replace('</head>', \`
+        .replace(/(<\!DOCTYPE html>)/i, '$1\n<!-- Optimized by bravohenry.com -->')
+        .replace('</head>', `
           <!-- Enhanced by bravohenry.com -->
-          <link rel="preconnect" href="\${new URL(targetUrl).origin}">
+          <link rel="preconnect" href="${new URL(targetUrl).origin}">
           <style>#__framer-badge-container{display:none!important}</style>
-          <meta name="version" content="\${VERSION}">
+          <meta name="version" content="${VERSION}">
           <meta name="generator" content="bravohenry.com">
-        </head>\`)
+        </head>`)
         .replace('<!-- ✨ Built with Framer • https://www.framer.com/ -->', '<!-- Customized by bravohenry.com -->');
 
       // Return modified content
@@ -140,7 +136,7 @@ export default {
         headers: {
           'Content-Type': 'text/html;charset=UTF-8',
           'Cache-Control': 'no-cache, must-revalidate',
-          'ETag': \`"\${VERSION}"\`,
+          'ETag': `"${VERSION}"`,
           'X-Content-Type-Options': 'nosniff',
           'X-Enhanced-By': 'bravohenry.com'
         }
@@ -152,7 +148,7 @@ export default {
     }
   }
 }
-\`\`\`
+```
 </details>
 
 7. Click `Save and deploy`
@@ -205,15 +201,11 @@ Add a DNS record in Cloudflare:
 
 ## 👨‍💻 Author
 
-<div align="center">
-
 | Platform | Link |
 |:--|:--|
 | 🌐 Blog | [Bravohenry.com](https://bravohenry.com) |
 | 📱 Xiaohongshu | Bravohenry |
 | 🐦 X | [@Bravohenry_](https://x.com/Bravohenry_) |
-
-</div>
 
 ## 📄 License
 
