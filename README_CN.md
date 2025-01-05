@@ -19,7 +19,7 @@
 <div align="center">
 
 | 功能 | 描述 |
-|---------|-------------|
+|:--|:--|
 | 🌐 自定义域名 | 使用自己的域名，提升专业形象 |
 | 🎯 去除水印 | 干净专业的外观，无 Framer 品牌标识 |
 | ⚡️ 全球 CDN | 使用 Cloudflare 网络实现极速加载 |
@@ -165,7 +165,7 @@ export default {
 #### 2️⃣ 配置详情
 
 | 设置 | 说明 |
-|---------|-------------|
+|:--|:--|
 | 🎯 项目地址 | 将 `your-site.framer.website` 替换为你的 Framer 网址 |
 | 🌐 自定义域名 | 在 Cloudflare 中更新域名设置 |
 | ⚡️ 缓存设置 | 根据需要调整缓存时间 |
@@ -176,7 +176,7 @@ export default {
 在 Cloudflare 添加 DNS 记录：
 
 | 设置 | 值 |
-|---------|-------|
+|:--|:--|
 | 类型 | `CNAME` |
 | 名称 | 你的子域名 |
 | 目标 | `your-worker.your-subdomain.workers.dev` |
@@ -192,7 +192,7 @@ export default {
 ## 🔍 故障排查
 
 | 问题 | 解决方案 |
-|-------|----------|
+|:--|:--|
 | 404 错误 | 检查 Framer 站点地址配置 |
 | DNS 问题 | 检查 DNS 记录和传播状态 |
 | 缓存问题 | 清除浏览器缓存并检查 Worker 设置 |
@@ -209,7 +209,7 @@ export default {
 <div align="center">
 
 | 平台 | 链接 |
-|----------|------|
+|:--|:--|
 | 🌐 博客 | [Bravohenry.com](https://bravohenry.com) |
 | 📱 小红书 | Bravohenry |
 | 🐦 X | [@Bravohenry_](https://x.com/Bravohenry_) |

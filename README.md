@@ -19,7 +19,7 @@
 <div align="center">
 
 | Feature | Description |
-|---------|-------------|
+|:--|:--|
 | 🌐 Custom Domain | Use your own domain for a professional look |
 | 🎯 No Watermark | Clean, professional appearance without Framer branding |
 | ⚡️ Global CDN | Lightning-fast loading with Cloudflare's network |
@@ -164,7 +164,7 @@ export default {
 #### 2️⃣ Configuration Details
 
 | Setting | Description |
-|---------|-------------|
+|:--|:--|
 | 🎯 Project URL | Replace `your-site.framer.website` with your Framer URL |
 | 🌐 Custom Domain | Update domain settings in Cloudflare |
 | ⚡️ Cache Settings | Adjust cache duration if needed |
@@ -175,7 +175,7 @@ export default {
 Add a DNS record in Cloudflare:
 
 | Setting | Value |
-|---------|-------|
+|:--|:--|
 | Type | `CNAME` |
 | Name | Your subdomain |
 | Target | `your-worker.your-subdomain.workers.dev` |
@@ -191,7 +191,7 @@ Add a DNS record in Cloudflare:
 ## 🔍 Troubleshooting
 
 | Issue | Solution |
-|-------|----------|
+|:--|:--|
 | 404 Errors | Verify Framer site URL configuration |
 | DNS Issues | Check DNS records and propagation |
 | Cache Problems | Clear browser cache and check Worker settings |
@@ -208,7 +208,7 @@ Add a DNS record in Cloudflare:
 <div align="center">
 
 | Platform | Link |
-|----------|------|
+|:--|:--|
 | 🌐 Blog | [Bravohenry.com](https://bravohenry.com) |
 | 📱 Xiaohongshu | Bravohenry |
 | 🐦 X | [@Bravohenry_](https://x.com/Bravohenry_) |
